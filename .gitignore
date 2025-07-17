@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Django
+*.log
+*.pot
+*.pyc
+db.sqlite3
+media/
+staticfiles/
+local_settings.py
+.env
+.env.*
+
+# Redis (if any dump or config files are generated)
+dump.rdb
+
+# Docker
+*.pid
+*.tar
+*.bak
+docker-compose.override.yml
+
+# VSCode / IDEs
+.vscode/
+.idea/
+*.swp
+
+# Virtualenv
+venv/
+ENV/
+env/
+.venv/
+
+# macOS system files
+.DS_Store
+
+# Byte-compiled / cache
+*.cache
+*.mypy_cache/
+*.pytest_cache/
+__pycache__/
+.pytest_cache/
+
+# Pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Test / coverage
+htmlcov/
+.coverage
+.tox/
+.nox/
+coverage.xml
+*.cover
+
+# Node (in case you add JS tools)
+node_modules/
+
+# Logs
+*.log
+logs/
